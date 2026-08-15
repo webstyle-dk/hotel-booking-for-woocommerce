@@ -1,0 +1,2423 @@
+/* =========================
+
+	CNWS Hotel Admin Base
+
+========================= */
+
+.cnwshotel_admin_card,
+
+.cnwshotel_settings_card,
+
+.cnwshotel_calendar_card {
+
+	background: #fff;
+
+	border: 1px solid #e5e7eb;
+
+	border-radius: 14px;
+
+	padding: 24px;
+
+	box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+
+	margin-bottom: 24px;
+
+}
+
+.cnwshotel_admin_section_title,
+
+.cnwshotel_calendar_title {
+
+	margin: 0 0 16px;
+
+	font-size: 20px;
+
+	line-height: 1.3;
+
+	color: #0f172a;
+
+}
+
+.cnwshotel_admin_subtitle,
+
+.cnwshotel_calendar_subtitle {
+
+	margin: 0 0 18px;
+
+	color: #64748b;
+
+}
+
+.cnwshotel_admin_muted {
+
+	color: #64748b;
+
+}
+
+.cnwshotel_admin_grid_2 {
+
+	display: grid;
+
+	grid-template-columns: 1fr 1fr;
+
+	gap: 24px;
+
+}
+
+.cnwshotel_admin_kpi_grid {
+
+	display: grid;
+
+	grid-template-columns: repeat(2, minmax(180px, 1fr));
+
+	gap: 14px;
+
+}
+
+.cnwshotel_admin_kpi_box,
+
+{
+
+	background: #f8fafc;
+
+	border: 1px solid #e5e7eb;
+
+	border-radius: 12px;
+
+	padding: 14px 16px;
+
+}
+
+.cnwshotel_admin_kpi_label,
+
+{
+
+	font-size: 12px;
+
+	color: #64748b;
+
+	margin-bottom: 6px;
+
+	text-transform: uppercase;
+
+	letter-spacing: .04em;
+
+}
+
+.cnwshotel_admin_kpi_value,
+
+{
+
+	font-size: 15px;
+
+	font-weight: 600;
+
+	color: #0f172a;
+
+}
+
+.cnwshotel_admin_badge,
+
+.cnwshotel_calendar_badge {
+
+	display: inline-block;
+
+	padding: 6px 10px;
+
+	border-radius: 999px;
+
+	font-size: 12px;
+
+	font-weight: 700;
+
+	text-transform: uppercase;
+
+	letter-spacing: .04em;
+
+	background: #ecfdf5;
+
+	color: #047857;
+
+}
+
+.cnwshotel_admin_badge.is-free,
+
+.cnwshotel_calendar_badge.is-free {
+
+	background: #f1f5f9;
+
+	color: #334155;
+
+}
+
+.cnwshotel_admin_actions,
+
+.cnwshotel_calendar_actions {
+
+	margin-top: 18px;
+
+	display: flex;
+
+	gap: 10px;
+
+	flex-wrap: wrap;
+
+}
+
+/* =========================
+
+	Settings > Booking
+
+========================= */
+
+.cnwshotel_settings_booking_wrap {
+
+	max-width: 900px;
+
+}
+
+.cnwshotel_settings_booking_intro {
+
+	margin-bottom: 18px;
+
+	color: #64748b;
+
+}
+
+.cnwshotel_settings_booking_grid {
+
+	display: grid;
+
+	grid-template-columns: 1fr 1fr;
+
+	gap: 24px;
+
+	margin-top: 18px;
+
+}
+
+.cnwshotel_settings_plan_box {
+
+	background: #fff;
+
+	border: 1px solid #e5e7eb;
+
+	border-radius: 14px;
+
+	padding: 20px;
+
+	box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+
+}
+
+.cnwshotel_settings_plan_box h3 {
+
+	margin-top: 0;
+
+	margin-bottom: 10px;
+
+	font-size: 18px;
+
+	color: #0f172a;
+
+}
+
+.cnwshotel_settings_plan_box p {
+
+	margin-top: 0;
+
+	color: #64748b;
+
+}
+
+.cnwshotel_settings_plan_box ul {
+
+	margin: 0;
+
+	padding-left: 18px;
+
+}
+
+.cnwshotel_settings_plan_box li {
+
+	margin-bottom: 8px;
+
+}
+
+/* =========================
+
+	Calendar
+
+========================= */
+
+.cnwshotel_calendar_shell {
+
+	margin-top: 16px;
+
+}
+
+.cnwshotel_calendar_topbar {
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: space-between;
+
+	gap: 16px;
+
+	flex-wrap: wrap;
+
+	margin-bottom: 16px;
+
+}
+
+.cnwshotel_calendar_table_wrap {
+
+	overflow-x: auto;
+
+}
+
+.cnwshotel_calendar_table {
+
+	width: 100%;
+
+	border-collapse: separate;
+
+	border-spacing: 0;
+
+	min-width: 900px;
+
+}
+
+.cnwshotel_calendar_table th,
+
+.cnwshotel_calendar_table td {
+
+	padding: 10px 12px;
+
+	border-bottom: 1px solid #e5e7eb;
+
+	text-align: center;
+
+	vertical-align: middle;
+
+}
+
+.cnwshotel_calendar_table thead th {
+
+	background: #f8fafc;
+
+	color: #0f172a;
+
+	font-weight: 700;
+
+	position: sticky;
+
+	top: 0;
+
+	z-index: 1;
+
+}
+
+.cnwshotel_calendar_room_col {
+
+	text-align: left !important;
+
+	min-width: 220px;
+
+	font-weight: 600;
+
+	color: #0f172a;
+
+	background: #fff;
+
+	position: sticky;
+
+	left: 0;
+
+	z-index: 2;
+
+}
+
+.cnwshotel_calendar_status {
+
+	width: 100%;
+
+	min-height: 34px;
+
+	border-radius: 8px;
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: center;
+
+	font-size: 12px;
+
+	font-weight: 700;
+
+}
+
+.cnwshotel_calendar_status_confirmed {
+
+	background: #fecaca;
+
+	color: #991b1b;
+
+}
+
+.cnwshotel_calendar_status_blocked {
+
+	background: #fde68a;
+
+	color: #92400e;
+
+}
+
+.cnwshotel_calendar_status_available {
+
+	background: #bbf7d0;
+
+	color: #166534;
+
+}
+
+.cnwshotel_calendar_status_free {
+
+	height: 22px;
+
+	min-height: 22px;
+
+	border-radius: 6px;
+
+}
+
+.cnwshotel_calendar_legend {
+
+	display: flex;
+
+	gap: 18px;
+
+	flex-wrap: wrap;
+
+	margin-top: 14px;
+
+}
+
+.cnwshotel_calendar_legend_item {
+
+	display: flex;
+
+	align-items: center;
+
+	gap: 8px;
+
+	color: #334155;
+
+	font-size: 13px;
+
+}
+
+.cnwshotel_calendar_dot {
+
+	width: 14px;
+
+	height: 14px;
+
+	border-radius: 4px;
+
+	display: inline-block;
+
+}
+
+.cnwshotel_calendar_dot_confirmed { background: #fecaca; }
+
+.cnwshotel_calendar_dot_blocked { background: #fde68a; }
+
+.cnwshotel_calendar_dot_available { background: #bbf7d0; }
+
+/* =========================
+
+	Responsive
+
+========================= */
+
+@media (max-width: 900px) {
+
+	.cnwshotel_admin_grid_2,
+
+	.cnwshotel_settings_booking_grid {
+
+		grid-template-columns: 1fr;
+
+	}
+
+	.cnwshotel_admin_kpi_grid,
+
+{
+
+		grid-template-columns: 1fr;
+
+	}
+
+	.cnwshotel_calendar_table th,
+
+	.cnwshotel_calendar_table td {
+
+		padding: 12px;
+
+	}
+
+}
+
+/* CNWS Hotel Free admin shell and setup wizard */
+.cnwshotel_admin_shell {
+	max-width: none;
+	margin: 0;
+	padding: 0 28px 40px;
+}
+
+.cnwshotel_admin_topbar {
+	display: flex;
+	align-items: center;
+	gap: 22px;
+	min-height: 74px;
+	margin: 0 -28px 28px;
+	padding: 0 28px;
+	background: #111827;
+	color: #fff;
+}
+
+.cnwshotel_admin_brand {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.cnwshotel_admin_subbrand {
+	margin-top: 3px;
+	color: #cbd5e1;
+	font-size: 12px;
+}
+
+.cnwshotel_admin_topnav {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	flex: 1;
+	min-width: 0;
+	overflow-x: auto;
+}
+
+.cnwshotel_admin_topnav a,
+.cnwshotel_admin_wp_link,
+.cnwshotel_admin_pro_link {
+	display: inline-flex;
+	align-items: center;
+	min-height: 34px;
+	padding: 0 12px;
+	border-radius: 999px;
+	color: #e5e7eb;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.cnwshotel_admin_topnav a:hover,
+.cnwshotel_admin_wp_link:hover {
+	color: #fff;
+	background: rgba(255,255,255,0.11);
+}
+
+.cnwshotel_admin_pro_link {
+	background: #2563eb;
+	color: #fff !important;
+	font-weight: 700;
+}
+
+.cnwshotel_admin_wp_link {
+	background: rgba(255,255,255,0.08);
+}
+
+.cnwshotel_admin_header {
+	margin: 0 0 22px;
+}
+
+.cnwshotel_admin_header h1 {
+	margin: 0;
+	color: #111827;
+	font-size: 32px;
+	font-weight: 800;
+	letter-spacing: -0.03em;
+}
+
+.cnwshotel_admin_header p {
+	max-width: 760px;
+	margin: 8px 0 0;
+	color: #4b5563;
+	font-size: 15px;
+}
+
+.cnwshotel_admin_grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	gap: 18px;
+	margin: 18px 0;
+}
+
+.cnwshotel_admin_card,
+.cnwshotel_wizard_card,
+.cnwshotel_pro_inline_card,
+.cnwshotel_upgrade_card {
+	padding: 22px;
+	border: 1px solid #e5e7eb;
+	border-radius: 18px;
+	background: #fff;
+	box-shadow: 0 12px 30px rgba(15,23,42,0.06);
+}
+
+.cnwshotel_admin_card h2,
+.cnwshotel_admin_card h3,
+.cnwshotel_wizard_card h2,
+.cnwshotel_pro_inline_card h3 {
+	margin-top: 0;
+}
+
+.cnwshotel_pro_callout {
+	border-color: #bfdbfe;
+	background: linear-gradient(135deg, #eff6ff 0%, #ffffff 100%);
+}
+
+.cnwshotel_pro_badge,
+.cnwshotel_pro_menu_badge {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 20px;
+	padding: 0 8px;
+	border-radius: 999px;
+	background: #2563eb;
+	color: #fff;
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: .04em;
+	vertical-align: middle;
+}
+
+.cnwshotel_pro_menu_badge {
+	margin-left: 5px;
+	transform: translateY(-1px);
+}
+
+.cnwshotel_admin_tabs {
+	display: flex;
+	gap: 8px;
+	margin: 0 0 18px;
+	border-bottom: 1px solid #e5e7eb;
+}
+
+.cnwshotel_admin_tab {
+	display: inline-flex;
+	padding: 12px 14px;
+	border: 1px solid transparent;
+	border-bottom: 0;
+	border-radius: 12px 12px 0 0;
+	color: #374151;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.cnwshotel_admin_tab.is-active {
+	border-color: #e5e7eb;
+	background: #fff;
+	color: #111827;
+}
+
+.cnwshotel_wizard_steps {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+	gap: 12px;
+	margin: 0 0 18px;
+}
+
+.cnwshotel_wizard_step {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 14px;
+	border-radius: 16px;
+	background: #f8fafc;
+	border: 1px solid #e5e7eb;
+}
+
+.cnwshotel_wizard_step span {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	background: #111827;
+	color: #fff;
+	font-weight: 700;
+}
+
+.cnwshotel_wizard_current {
+	margin-top: 18px;
+	padding: 14px;
+	border-radius: 14px;
+	background: #f8fafc;
+}
+
+.cnwshotel_roomdata_wrap {
+	display: flex;
+	gap: 0;
+	border: 1px solid #dcdcde;
+	background: #fff;
+	min-height: 330px;
+}
+
+.cnwshotel_roomdata_tabs {
+	width: 220px;
+	border-right: 1px solid #dcdcde;
+	background: #f6f7f7;
+	margin: 0;
+	padding: 0;
+}
+
+.cnwshotel_roomdata_tabs button {
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding: 14px 16px;
+	border: 0;
+	border-bottom: 1px solid #e0e0e0;
+	background: transparent;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.cnwshotel_roomdata_tabs button.active {
+	background: #fff;
+	color: #2271b1;
+	box-shadow: inset 3px 0 0 #2271b1;
+}
+
+.cnwshotel_roomdata_content {
+	flex: 1;
+}
+
+.cnwshotel_roomdata_panel {
+	display: none;
+	padding: 20px;
+	background: #fff;
+}
+
+.cnwshotel_roomdata_panel.active {
+	display: block;
+}
+
+.cnwshotel_roomdata_grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(220px, 1fr));
+	gap: 20px;
+}
+
+.cnwshotel_roomdata_field label {
+	display: block;
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+
+.cnwshotel_roomdata_field .description {
+	margin-top: 6px;
+	color: #666;
+}
+
+.cnwshotel_room_unit_row {
+	display: grid;
+	grid-template-columns: minmax(220px, 1fr) 130px 150px auto;
+	gap: 10px;
+	align-items: center;
+	padding: 12px;
+	margin: 0 0 10px;
+	border: 1px solid #e5e7eb;
+	border-radius: 12px;
+	background: #fff;
+}
+
+.cnwshotel_admin_thumb {
+	display: inline-block;
+	position: relative;
+	margin: 5px;
+}
+
+.cnwshotel_admin_thumb img {
+	width: 80px;
+	height: auto;
+	display: block;
+	border-radius: 8px;
+}
+
+.cnwshotel_admin_thumb .remove {
+	position: absolute;
+	top: -6px;
+	right: -6px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #fff;
+	color: #b91c1c;
+	cursor: pointer;
+	line-height: 20px;
+	text-align: center;
+	font-weight: 700;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+.cnwshotel_pro_inline,
+.cnwshotel_pro_inline_card {
+	margin-top: 16px;
+	border-color: #bfdbfe;
+	background: #eff6ff;
+}
+
+.cnwshotel_upgrade_page .cnwshotel_upgrade_hero {
+	padding: 28px;
+	margin: 18px 0;
+	border-radius: 22px;
+	color: #fff;
+	background: linear-gradient(135deg, #111827 0%, #1d4ed8 100%);
+}
+
+.cnwshotel_upgrade_grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	gap: 16px;
+	margin: 18px 0;
+}
+
+.cnwshotel_upgrade_table {
+	margin-top: 14px;
+}
+
+@media (max-width: 900px) {
+	.cnwshotel_admin_topbar,
+	.cnwshotel_admin_topnav {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	.cnwshotel_roomdata_wrap {
+		display: block;
+	}
+
+	.cnwshotel_roomdata_tabs {
+		width: auto;
+		border-right: 0;
+	}
+
+	.cnwshotel_roomdata_grid,
+	.cnwshotel_room_unit_row {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* =========================
+	CNWS Hotel Free Admin Shell Fixes
+========================= */
+body.cnwshotel_admin_app #wpbody-content {
+	padding-bottom: 40px;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_shell,
+body.cnwshotel_admin_app .cnwshotel_admin_native_shell {
+	max-width: none;
+	margin: 0;
+	padding: 0 28px 40px;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_native_shell {
+	padding-bottom: 0;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_native_shell + .wrap,
+body.cnwshotel_admin_app .cnwshotel_admin_native_shell ~ .wrap {
+	margin-left: 28px;
+	margin-right: 28px;
+}
+
+.cnwshotel_admin_topbar {
+	display: flex;
+	align-items: center;
+	gap: 22px;
+	min-height: 74px;
+	margin: 0 -28px 28px;
+	padding: 0 28px;
+	background: #111827;
+	color: #fff;
+}
+
+.cnwshotel_admin_brand_wrap {
+	min-width: 140px;
+}
+
+.cnwshotel_admin_brand {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.cnwshotel_admin_subbrand {
+	margin-top: 3px;
+	color: #cbd5e1;
+	font-size: 12px;
+}
+
+.cnwshotel_admin_topnav {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	flex: 1;
+	min-width: 0;
+	overflow-x: auto;
+}
+
+.cnwshotel_admin_topnav a,
+.cnwshotel_admin_pro_link {
+	display: inline-flex;
+	align-items: center;
+	min-height: 34px;
+	padding: 0 12px;
+	border-radius: 999px;
+	color: #e5e7eb;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.cnwshotel_admin_topnav a:hover {
+	color: #fff;
+	background: rgba(255, 255, 255, 0.11);
+}
+
+.cnwshotel_admin_pro_link {
+	background: #2563eb;
+	color: #fff !important;
+	font-weight: 700;
+}
+
+.cnwshotel_admin_wp_link {
+	display: none !important;
+}
+
+.cnwshotel_admin_header {
+	margin: 0 0 22px;
+}
+
+.cnwshotel_admin_header h1 {
+	margin: 0;
+	color: #111827;
+	font-size: 32px;
+	font-weight: 800;
+	letter-spacing: -0.03em;
+}
+
+.cnwshotel_admin_header p {
+	max-width: 760px;
+	margin: 8px 0 0;
+	color: #4b5563;
+	font-size: 15px;
+}
+
+.cnwshotel_admin_grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	gap: 18px;
+	margin: 18px 0;
+}
+
+.cnwshotel_admin_card,
+.cnwshotel_wizard_card,
+.cnwshotel_wizard_panel,
+.cnwshotel_pro_inline_card,
+.cnwshotel_upgrade_card {
+	padding: 22px;
+	border: 1px solid #e5e7eb;
+	border-radius: 18px;
+	background: #fff;
+	box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+}
+
+.cnwshotel_pro_callout {
+	border-color: #bfdbfe;
+	background: linear-gradient(135deg, #eff6ff 0%, #ffffff 100%);
+}
+
+.cnwshotel_pro_badge,
+.cnwshotel_pro_menu_badge {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 20px;
+	padding: 0 8px;
+	border-radius: 999px;
+	background: #2563eb;
+	color: #fff;
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: .04em;
+	vertical-align: middle;
+}
+
+.cnwshotel_pro_menu_badge {
+	margin-left: 5px;
+	transform: translateY(-1px);
+}
+
+.cnwshotel_admin_tabs {
+	display: flex;
+	gap: 8px;
+	margin: 0 0 18px;
+	border-bottom: 1px solid #e5e7eb;
+}
+
+.cnwshotel_admin_tab {
+	display: inline-flex;
+	padding: 12px 14px;
+	border: 1px solid transparent;
+	border-bottom: 0;
+	border-radius: 12px 12px 0 0;
+	color: #374151;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.cnwshotel_admin_tab.is-active {
+	border-color: #e5e7eb;
+	background: #fff;
+	color: #111827;
+}
+
+/* =========================
+	CNWS Hotel Setup Wizard
+========================= */
+.cnwshotel_wizard_panel {
+	display: grid;
+	grid-template-columns: 260px minmax(0, 1fr);
+	gap: 24px;
+	max-width: 1080px;
+	margin-bottom: 22px;
+}
+
+.cnwshotel_wizard_rail {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.cnwshotel_wizard_step {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 14px;
+	border-radius: 16px;
+	background: #f8fafc;
+	border: 1px solid #e5e7eb;
+	color: #334155;
+}
+
+.cnwshotel_wizard_step span {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #e5e7eb;
+	color: #111827;
+	font-weight: 800;
+}
+
+.cnwshotel_wizard_step.is-active {
+	border-color: #2563eb;
+	background: #eff6ff;
+	color: #1e3a8a;
+}
+
+.cnwshotel_wizard_step.is-active span,
+.cnwshotel_wizard_step.is-complete span {
+	background: #2563eb;
+	color: #fff;
+}
+
+.cnwshotel_wizard_form {
+	min-width: 0;
+}
+
+.cnwshotel_wizard_screen {
+	display: none;
+	min-height: 310px;
+}
+
+.cnwshotel_wizard_screen.is-active {
+	display: block;
+}
+
+.cnwshotel_wizard_screen h2 {
+	margin-top: 0;
+	font-size: 24px;
+}
+
+.cnwshotel_wizard_screen label {
+	display: block;
+	margin: 18px 0 7px;
+	font-weight: 700;
+	color: #111827;
+}
+
+.cnwshotel_wizard_screen input.regular-text,
+.cnwshotel_wizard_screen textarea.large-text {
+	width: min(100%, 560px);
+}
+
+.cnwshotel_wizard_image_preview {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 180px;
+	height: 130px;
+	border: 1px dashed #cbd5e1;
+	border-radius: 14px;
+	background: #f8fafc;
+	overflow: hidden;
+}
+
+.cnwshotel_wizard_image_preview:empty::before {
+	content: '';
+	width: 42px;
+	height: 42px;
+	border-radius: 12px;
+	background: #e5e7eb;
+}
+
+.cnwshotel_wizard_image_preview img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.cnwshotel_wizard_shortcodes {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	max-width: 360px;
+	margin-top: 16px;
+}
+
+.cnwshotel_wizard_shortcodes code {
+	display: block;
+	padding: 12px 14px;
+	border-radius: 10px;
+	background: #f1f5f9;
+	color: #0f172a;
+}
+
+.cnwshotel_wizard_actions {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-top: 22px;
+}
+
+.cnwshotel_wizard_submit {
+	display: none;
+}
+
+@media (max-width: 900px) {
+	.cnwshotel_wizard_panel {
+		grid-template-columns: 1fr;
+	}
+
+	.cnwshotel_wizard_rail {
+		flex-direction: row;
+		overflow-x: auto;
+	}
+
+	.cnwshotel_admin_topbar {
+		flex-direction: column;
+		align-items: flex-start;
+		padding-top: 18px;
+		padding-bottom: 18px;
+	}
+}
+
+/* =========================
+	CNWS Hotel Free Admin Shell Fixes - keep native WordPress menu visible
+========================= */
+body.cnwshotel_admin_app #adminmenumain {
+	display: block;
+}
+
+body.cnwshotel_admin_app #wpcontent,
+body.cnwshotel_admin_app #wpfooter {
+	margin-left: 160px;
+}
+
+body.folded.cnwshotel_admin_app #wpcontent,
+body.folded.cnwshotel_admin_app #wpfooter {
+	margin-left: 36px;
+}
+
+@media screen and (max-width: 782px) {
+	body.cnwshotel_admin_app #wpcontent,
+	body.cnwshotel_admin_app #wpfooter {
+		margin-left: 0;
+	}
+}
+
+/* =========================
+	CNWS Hotel Sidebar Registration Fix
+========================= */
+#adminmenu #toplevel_page_cnwshotel-dashboard .wp-submenu {
+	display: none !important;
+}
+
+#adminmenu #toplevel_page_cnwshotel-dashboard.opensub .wp-submenu,
+#adminmenu #toplevel_page_cnwshotel-dashboard.wp-has-current-submenu .wp-submenu {
+	display: none !important;
+}
+
+/* CNWS Hotel topbar logo */
+.cnwshotel_admin_brand_wrap {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	min-width: 220px;
+}
+
+.cnwshotel_admin_brand_logo {
+	flex: 0 0 auto;
+	width: 56px;
+	height: 56px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 14px;
+	background: rgba(255, 255, 255, 0.06);
+	padding: 6px;
+}
+
+.cnwshotel_admin_brand_logo img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.cnwshotel_admin_brand_text {
+	min-width: 0;
+}
+
+@media (max-width: 900px) {
+	.cnwshotel_admin_brand_wrap {
+		min-width: 0;
+	}
+}
+
+/* =========================
+	CNWS Hotel Free Premium Admin Polish
+========================= */
+body.cnwshotel_admin_app {
+	background: #f3f0ea;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_topbar {
+	min-height: 86px;
+	margin: 0 -28px 34px;
+	padding: 10px 32px;
+	background:
+		radial-gradient(circle at 14% 8%, rgba(212, 175, 55, 0.22), transparent 28%),
+		linear-gradient(135deg, #07111f 0%, #0e1f37 48%, #13284a 100%);
+	border-bottom: 1px solid rgba(212, 175, 55, 0.36);
+	box-shadow: 0 18px 42px rgba(15, 23, 42, 0.18);
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_brand_wrap {
+	min-width: 250px;
+	gap: 16px;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_brand_logo {
+	width: 72px;
+	height: 72px;
+	padding: 0;
+	border-radius: 18px;
+	background: linear-gradient(145deg, #fffdf6 0%, #f4ead2 100%);
+	border: 1px solid rgba(212, 175, 55, 0.72);
+	box-shadow:
+		0 12px 28px rgba(0, 0, 0, 0.28),
+		inset 0 0 0 1px rgba(255, 255, 255, 0.65);
+	overflow: hidden;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_brand_logo img {
+	width: 66px;
+	height: 66px;
+	object-fit: contain;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_brand {
+	color: #fff7df;
+	font-size: 21px;
+	letter-spacing: -0.02em;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_subbrand {
+	color: #d8c38b;
+	font-size: 12px;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_topnav {
+	gap: 8px;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_topnav a,
+body.cnwshotel_admin_app .cnwshotel_admin_pro_link {
+	min-height: 38px;
+	padding: 0 15px;
+	color: #f8fafc;
+	border: 1px solid transparent;
+	transition: background-color .18s ease, border-color .18s ease, color .18s ease, transform .18s ease;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_topnav a:hover,
+body.cnwshotel_admin_app .cnwshotel_admin_topnav a:focus {
+	color: #fff7df;
+	background: rgba(255, 255, 255, 0.08);
+	border-color: rgba(212, 175, 55, 0.28);
+	transform: translateY(-1px);
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_pro_link {
+	background: linear-gradient(135deg, #d4af37 0%, #f4d47b 42%, #1f6feb 43%, #2158d8 100%);
+	color: #07111f;
+	font-weight: 800;
+	box-shadow: 0 10px 24px rgba(31, 111, 235, 0.25);
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_pro_link:hover,
+body.cnwshotel_admin_app .cnwshotel_admin_pro_link:focus {
+	color: #07111f;
+	background: linear-gradient(135deg, #f0c95d 0%, #ffe7a6 42%, #2b78ff 43%, #2d63f0 100%);
+}
+
+/* =========================
+	CNWS Hotel admin marketing page styles
+========================= */
+.cnwshotel_upgrade_page_v2 {
+	margin-top: 10px;
+}
+
+.cnwshotel_upgrade_hero_v2,
+.cnwshotel_upgrade_final_cta {
+	position: relative;
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+	gap: 28px;
+	align-items: center;
+	padding: 34px;
+	border-radius: 26px;
+	background:
+		radial-gradient(circle at 82% 18%, rgba(212, 175, 55, 0.34), transparent 26%),
+		linear-gradient(135deg, #101c33 0%, #19376d 54%, #2657e6 100%);
+	color: #fff;
+	box-shadow: 0 24px 60px rgba(15, 23, 42, 0.18);
+}
+
+.cnwshotel_upgrade_hero_v2::before,
+.cnwshotel_upgrade_final_cta::before {
+	content: "";
+	position: absolute;
+	inset: 1px;
+	border-radius: 25px;
+	border: 1px solid rgba(255, 255, 255, 0.16);
+	pointer-events: none;
+}
+
+.cnwshotel_upgrade_kicker {
+	display: inline-flex;
+	align-items: center;
+	min-height: 24px;
+	padding: 0 10px;
+	border-radius: 999px;
+	background: rgba(212, 175, 55, 0.18);
+	border: 1px solid rgba(212, 175, 55, 0.42);
+	color: #ffe9a6;
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+}
+
+.cnwshotel_upgrade_hero_content,
+.cnwshotel_upgrade_final_cta > * {
+	position: relative;
+	z-index: 1;
+}
+
+.cnwshotel_upgrade_hero_v2 h2,
+.cnwshotel_upgrade_final_cta h2 {
+	max-width: 780px;
+	margin: 18px 0 12px;
+	color: #fff7df;
+	font-size: clamp(30px, 4vw, 54px);
+	line-height: 1.02;
+	letter-spacing: -0.04em;
+}
+
+.cnwshotel_upgrade_hero_v2 p,
+.cnwshotel_upgrade_final_cta p {
+	max-width: 760px;
+	margin: 0;
+	color: rgba(255, 255, 255, 0.86);
+	font-size: 15px;
+	line-height: 1.7;
+}
+
+.cnwshotel_upgrade_hero_actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin-top: 24px;
+}
+
+.cnwshotel_upgrade_hero_actions .button,
+.cnwshotel_upgrade_final_cta .button {
+	min-height: 42px;
+	padding: 5px 18px;
+	border-radius: 999px;
+	font-weight: 800;
+}
+
+.cnwshotel_upgrade_hero_actions .button-primary,
+.cnwshotel_upgrade_final_cta .button-primary {
+	background: linear-gradient(135deg, #d4af37, #f3d47f);
+	border-color: #d4af37;
+	color: #07111f;
+}
+
+.cnwshotel_upgrade_hero_actions .button-secondary {
+	background: rgba(255, 255, 255, 0.08);
+	border-color: rgba(255, 255, 255, 0.28);
+	color: #fff;
+}
+
+.cnwshotel_upgrade_hero_preview {
+	position: relative;
+	z-index: 1;
+}
+
+.cnwshotel_preview_window {
+	padding: 18px;
+	border-radius: 24px;
+	background: rgba(255, 255, 255, 0.94);
+	box-shadow: 0 20px 45px rgba(0, 0, 0, 0.22);
+}
+
+.cnwshotel_preview_bar {
+	display: flex;
+	gap: 6px;
+	margin-bottom: 16px;
+}
+
+.cnwshotel_preview_bar span {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #d4af37;
+}
+
+.cnwshotel_preview_row {
+	height: 18px;
+	margin-bottom: 10px;
+	border-radius: 999px;
+	background: #dbe5f3;
+}
+
+.cnwshotel_preview_row.is-blue {
+	width: 74%;
+	background: #1f6feb;
+}
+
+.cnwshotel_preview_grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+	margin-top: 18px;
+}
+
+.cnwshotel_preview_grid span {
+	min-height: 54px;
+	border-radius: 16px;
+	background: linear-gradient(135deg, #f9fafb, #e8eef8);
+	border: 1px solid #dbe5f3;
+}
+
+.cnwshotel_upgrade_section {
+	margin-top: 34px;
+}
+
+.cnwshotel_upgrade_section_heading {
+	max-width: 760px;
+	margin-bottom: 18px;
+}
+
+.cnwshotel_upgrade_section_heading > span {
+	display: inline-flex;
+	margin-bottom: 8px;
+	color: #a37b16;
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+}
+
+.cnwshotel_upgrade_section_heading h2 {
+	margin: 0 0 8px;
+	color: #0f172a;
+	font-size: 30px;
+	line-height: 1.15;
+	letter-spacing: -0.03em;
+}
+
+.cnwshotel_upgrade_section_heading p {
+	margin: 0;
+	color: #475569;
+	font-size: 14px;
+	line-height: 1.7;
+}
+
+.cnwshotel_upgrade_feature_grid {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 18px;
+}
+
+.cnwshotel_upgrade_feature_card,
+.cnwshotel_comparison_card {
+	overflow: hidden;
+	border-radius: 24px;
+	background: #fff;
+	border: 1px solid rgba(148, 163, 184, 0.32);
+	box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+}
+
+.cnwshotel_pro_visual {
+	position: relative;
+	min-height: 150px;
+	background:
+		radial-gradient(circle at 22% 12%, rgba(212, 175, 55, 0.36), transparent 24%),
+		linear-gradient(135deg, #0e1f37, #1f6feb);
+}
+
+.cnwshotel_pro_visual span {
+	position: absolute;
+	display: block;
+	border-radius: 14px;
+	background: rgba(255, 255, 255, 0.9);
+	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
+}
+
+.cnwshotel_pro_visual_cleaning span:nth-child(1) {
+	left: 24px;
+	top: 34px;
+	width: 62px;
+	height: 62px;
+}
+
+.cnwshotel_pro_visual_cleaning span:nth-child(2) {
+	left: 104px;
+	top: 42px;
+	width: 150px;
+	height: 16px;
+}
+
+.cnwshotel_pro_visual_cleaning span:nth-child(3) {
+	left: 104px;
+	top: 74px;
+	width: 112px;
+	height: 16px;
+}
+
+.cnwshotel_pro_visual_addons span:nth-child(1) {
+	left: 24px;
+	top: 30px;
+	width: 88px;
+	height: 88px;
+}
+
+.cnwshotel_pro_visual_addons span:nth-child(2) {
+	left: 126px;
+	top: 30px;
+	width: 88px;
+	height: 88px;
+}
+
+.cnwshotel_pro_visual_addons span:nth-child(3) {
+	right: 24px;
+	top: 46px;
+	width: 58px;
+	height: 58px;
+	border-radius: 50%;
+	background: #d4af37;
+}
+
+.cnwshotel_pro_visual_allocation span:nth-child(1) {
+	left: 26px;
+	top: 44px;
+	width: 78px;
+	height: 54px;
+}
+
+.cnwshotel_pro_visual_allocation span:nth-child(2) {
+	left: 122px;
+	top: 30px;
+	width: 78px;
+	height: 54px;
+}
+
+.cnwshotel_pro_visual_allocation span:nth-child(3) {
+	right: 28px;
+	top: 62px;
+	width: 78px;
+	height: 54px;
+}
+
+.cnwshotel_upgrade_feature_body {
+	padding: 22px;
+}
+
+.cnwshotel_upgrade_feature_body h3 {
+	margin: 0 0 8px;
+	color: #0f172a;
+	font-size: 18px;
+}
+
+.cnwshotel_upgrade_feature_body > p,
+.cnwshotel_upgrade_details p {
+	margin: 0;
+	color: #475569;
+	line-height: 1.65;
+}
+
+.cnwshotel_upgrade_details {
+	margin-top: 14px;
+	padding-top: 14px;
+	border-top: 1px solid #e5e7eb;
+}
+
+.cnwshotel_upgrade_details summary {
+	cursor: pointer;
+	color: #1f4faf;
+	font-weight: 800;
+}
+
+.cnwshotel_upgrade_details p {
+	margin-top: 12px;
+}
+
+.cnwshotel_comparison_card {
+	padding: 0;
+}
+
+.cnwshotel_comparison_table {
+	width: 100%;
+	border-collapse: collapse;
+	background: #fff;
+}
+
+.cnwshotel_comparison_table th,
+.cnwshotel_comparison_table td {
+	padding: 16px 18px;
+	border-bottom: 1px solid #eef2f7;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.cnwshotel_comparison_table th {
+	color: #0f172a;
+	background: #f8fafc;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+.cnwshotel_comparison_feature {
+	width: 38%;
+	color: #0f172a;
+	font-weight: 800;
+}
+
+.cnwshotel_comparison_status {
+	width: 31%;
+}
+
+.cnwshotel_comparison_status .cnwshotel_status_mark {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 28px;
+	height: 28px;
+	margin-right: 10px;
+	border-radius: 999px;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 1;
+}
+
+.cnwshotel_comparison_status.is-positive .cnwshotel_status_mark {
+	color: #fff;
+	background: #16a34a;
+}
+
+.cnwshotel_comparison_status.is-negative .cnwshotel_status_mark {
+	color: #fff;
+	background: #dc2626;
+}
+
+.cnwshotel_upgrade_final_cta {
+	grid-template-columns: minmax(0, 1fr) auto;
+	margin-top: 34px;
+}
+
+.cnwshotel_upgrade_final_cta h2 {
+	font-size: clamp(26px, 3vw, 42px);
+}
+
+@media (max-width: 1100px) {
+	.cnwshotel_upgrade_hero_v2,
+	.cnwshotel_upgrade_final_cta {
+		grid-template-columns: 1fr;
+	}
+
+	.cnwshotel_upgrade_feature_grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 782px) {
+	body.cnwshotel_admin_app .cnwshotel_admin_topbar {
+		margin-left: -12px;
+		margin-right: -12px;
+		padding-left: 18px;
+		padding-right: 18px;
+	}
+
+	body.cnwshotel_admin_app .cnwshotel_admin_brand_logo {
+		width: 62px;
+		height: 62px;
+	}
+
+	body.cnwshotel_admin_app .cnwshotel_admin_brand_logo img {
+		width: 56px;
+		height: 56px;
+	}
+
+	.cnwshotel_upgrade_hero_v2,
+	.cnwshotel_upgrade_final_cta {
+		padding: 24px;
+		border-radius: 20px;
+	}
+
+	.cnwshotel_comparison_table th,
+	.cnwshotel_comparison_table td {
+		padding: 13px 10px;
+	}
+}
+
+/* =========================
+	CNWS Hotel topbar polish v3
+========================= */
+body.cnwshotel_admin_app .cnwshotel_admin_topbar {
+	background: linear-gradient(135deg, #152744 0%, #1d3154 52%, #263d63 100%);
+	border: 1px solid rgba(212, 175, 55, 0.42);
+	box-shadow: 0 18px 36px rgba(10, 18, 35, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_topbar::after {
+	content: "";
+	position: absolute;
+	left: 1px;
+	right: 1px;
+	bottom: 0;
+	height: 1px;
+	background: linear-gradient(90deg, rgba(212, 175, 55, 0), rgba(212, 175, 55, 0.55), rgba(212, 175, 55, 0));
+	pointer-events: none;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_brand_wrap {
+	gap: 16px;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_brand_logo {
+	width: 78px;
+	height: 78px;
+	padding: 7px;
+	border-radius: 18px;
+	background: linear-gradient(180deg, rgba(255,255,255,0.10), rgba(255,255,255,0.04));
+	border: 1px solid rgba(212, 175, 55, 0.36);
+	box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_brand_logo img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	filter: drop-shadow(0 3px 8px rgba(0,0,0,0.12));
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_topnav {
+	flex: 1 1 auto;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_topnav a {
+	font-size: 13px;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_pro_link {
+	margin-left: auto;
+	min-height: 34px;
+	padding: 4px 12px;
+	border-radius: 999px;
+	background: rgba(212, 175, 55, 0.10);
+	border: 1px solid rgba(212, 175, 55, 0.42);
+	color: #f7e6a7;
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 0.02em;
+	box-shadow: none;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_pro_link:hover,
+body.cnwshotel_admin_app .cnwshotel_admin_pro_link:focus {
+	color: #fff3c8;
+	background: rgba(212, 175, 55, 0.18);
+	border-color: rgba(212, 175, 55, 0.62);
+}
+
+/* =========================
+	CNWS Hotel upgrade page polish v3
+========================= */
+.cnwshotel_upgrade_page_v2 {
+	margin-top: 0;
+}
+
+.cnwshotel_upgrade_hero_v2,
+.cnwshotel_upgrade_final_cta {
+	gap: 24px;
+	padding: 30px;
+	background:
+		radial-gradient(circle at 82% 18%, rgba(212, 175, 55, 0.26), transparent 24%),
+		linear-gradient(135deg, #12213c 0%, #20345b 55%, #2f56a2 100%);
+}
+
+.cnwshotel_upgrade_kicker {
+	font-size: 11px;
+}
+
+.cnwshotel_upgrade_hero_v2 h2,
+.cnwshotel_upgrade_final_cta h2 {
+	margin: 14px 0 10px;
+	font-size: clamp(24px, 3vw, 36px);
+	letter-spacing: -0.03em;
+}
+
+.cnwshotel_upgrade_hero_v2 p,
+.cnwshotel_upgrade_final_cta p,
+.cnwshotel_upgrade_section_heading p,
+.cnwshotel_upgrade_feature_body > p,
+.cnwshotel_upgrade_details p,
+.cnwshotel_comparison_table td {
+	font-size: 13px;
+	line-height: 1.7;
+}
+
+.cnwshotel_upgrade_section_heading h2 {
+	font-size: 24px;
+}
+
+.cnwshotel_upgrade_section_heading > span,
+.cnwshotel_comparison_table th {
+	font-size: 11px;
+}
+
+.cnwshotel_upgrade_feature_grid {
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.cnwshotel_upgrade_feature_card {
+	border-color: rgba(212, 175, 55, 0.18);
+}
+
+.cnwshotel_pro_visual {
+	min-height: 168px;
+	background:
+		radial-gradient(circle at 18% 18%, rgba(212, 175, 55, 0.28), transparent 24%),
+		linear-gradient(135deg, #132645, #2a4f96);
+}
+
+.cnwshotel_pro_visual span {
+	position: absolute;
+	display: block;
+	border-radius: 16px;
+	background: rgba(255, 255, 255, 0.94);
+	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.16);
+}
+
+/* Integrations visual */
+.cnwshotel_pro_visual_integrations span:nth-child(1) {
+	left: 24px;
+	top: 38px;
+	width: 64px;
+	height: 48px;
+}
+
+.cnwshotel_pro_visual_integrations span:nth-child(2) {
+	left: 104px;
+	top: 30px;
+	width: 64px;
+	height: 48px;
+}
+
+.cnwshotel_pro_visual_integrations span:nth-child(3) {
+	left: 184px;
+	top: 38px;
+	width: 64px;
+	height: 48px;
+}
+
+.cnwshotel_pro_visual_integrations span:nth-child(4) {
+	left: 110px;
+	bottom: 28px;
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	background: linear-gradient(135deg, #d4af37, #f6dd97);
+}
+
+/* Pricing visual */
+.cnwshotel_pro_visual_pricing span:nth-child(1) {
+	left: 24px;
+	top: 28px;
+	width: 98px;
+	height: 110px;
+}
+
+.cnwshotel_pro_visual_pricing span:nth-child(2) {
+	left: 138px;
+	top: 38px;
+	width: 110px;
+	height: 22px;
+}
+
+.cnwshotel_pro_visual_pricing span:nth-child(3) {
+	left: 138px;
+	top: 76px;
+	width: 84px;
+	height: 22px;
+}
+
+.cnwshotel_pro_visual_pricing span:nth-child(4) {
+	right: 24px;
+	bottom: 24px;
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	background: linear-gradient(135deg, #d4af37, #f6dd97);
+}
+
+/* Operations visual */
+.cnwshotel_pro_visual_operations span:nth-child(1) {
+	left: 30px;
+	top: 24px;
+	width: 82px;
+	height: 118px;
+	border-radius: 20px;
+}
+
+.cnwshotel_pro_visual_operations span:nth-child(2) {
+	left: 130px;
+	top: 34px;
+	width: 118px;
+	height: 18px;
+}
+
+.cnwshotel_pro_visual_operations span:nth-child(3) {
+	left: 130px;
+	top: 70px;
+	width: 94px;
+	height: 18px;
+}
+
+.cnwshotel_pro_visual_operations span:nth-child(4) {
+	left: 130px;
+	top: 106px;
+	width: 74px;
+	height: 18px;
+	background: linear-gradient(135deg, #d4af37, #f6dd97);
+}
+
+.cnwshotel_upgrade_feature_body h3 {
+	font-size: 17px;
+}
+
+.cnwshotel_upgrade_details summary {
+	color: #9c7614;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: .06em;
+}
+
+.cnwshotel_comparison_table th,
+.cnwshotel_comparison_table td {
+	padding: 14px 16px;
+}
+
+.cnwshotel_comparison_feature {
+	width: 42%;
+	font-size: 13px;
+}
+
+.cnwshotel_comparison_status {
+	width: 29%;
+}
+
+@media (max-width: 1100px) {
+	.cnwshotel_upgrade_feature_grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 782px) {
+	body.cnwshotel_admin_app .cnwshotel_admin_brand_logo {
+		width: 68px;
+		height: 68px;
+	}
+
+	body.cnwshotel_admin_app .cnwshotel_admin_topnav {
+		gap: 8px;
+	}
+
+	body.cnwshotel_admin_app .cnwshotel_admin_pro_link {
+		margin-left: 0;
+		align-self: flex-start;
+	}
+}
+
+/* =========================
+	CNWS Hotel admin typography and feature image styles
+========================= */
+.cnwshotel_upgrade_page_v2 .cnwshotel_upgrade_hero_v2 h2,
+.cnwshotel_upgrade_page_v2 .cnwshotel_upgrade_section_heading h2,
+.cnwshotel_upgrade_page_v2 .cnwshotel_upgrade_feature_body h3,
+.cnwshotel_upgrade_page_v2 .cnwshotel_upgrade_final_cta h2 {
+	font-family: Georgia, 'Times New Roman', serif;
+	font-weight: 500;
+	letter-spacing: -0.025em;
+}
+
+.cnwshotel_upgrade_page_v2 .cnwshotel_upgrade_hero_v2 h2 {
+	max-width: 720px;
+	font-size: clamp(27px, 3.2vw, 42px);
+	line-height: 1.12;
+}
+
+.cnwshotel_upgrade_page_v2 .cnwshotel_upgrade_section_heading h2 {
+	font-size: 26px;
+	line-height: 1.18;
+}
+
+.cnwshotel_upgrade_page_v2 .cnwshotel_upgrade_feature_body h3 {
+	font-size: 21px;
+	line-height: 1.18;
+}
+
+.cnwshotel_upgrade_page_v2 .cnwshotel_upgrade_final_cta h2 {
+	font-size: clamp(24px, 2.6vw, 36px);
+}
+
+.cnwshotel_upgrade_page_v2 .cnwshotel_upgrade_hero_v2 p,
+.cnwshotel_upgrade_page_v2 .cnwshotel_upgrade_section_heading p,
+.cnwshotel_upgrade_page_v2 .cnwshotel_upgrade_feature_body > p,
+.cnwshotel_upgrade_page_v2 .cnwshotel_upgrade_details p,
+.cnwshotel_upgrade_page_v2 .cnwshotel_comparison_table td {
+	font-weight: 400;
+}
+
+.cnwshotel_pro_image {
+	position: relative;
+	overflow: hidden;
+	height: 185px;
+	background: #0f1e35;
+}
+
+.cnwshotel_pro_image::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(180deg, rgba(15, 30, 53, 0.02), rgba(15, 30, 53, 0.18));
+	pointer-events: none;
+}
+
+.cnwshotel_pro_image img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.cnwshotel_upgrade_feature_card {
+	border-color: rgba(212, 175, 55, 0.24);
+}
+
+.cnwshotel_upgrade_feature_body {
+	padding: 20px 21px 22px;
+}
+
+.cnwshotel_upgrade_details summary {
+	font-weight: 700;
+}
+
+@media (max-width: 782px) {
+	.cnwshotel_pro_image {
+		height: 170px;
+	}
+}
+
+/* =========================
+	CNWS Hotel release cleanup / topbar media
+========================= */
+body.cnwshotel_admin_app .cnwshotel_admin_topbar {
+	position: relative;
+	min-height: 102px;
+	align-items: stretch;
+	overflow: hidden;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_brand_wrap,
+body.cnwshotel_admin_app .cnwshotel_admin_topnav {
+	position: relative;
+	z-index: 2;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_brand_wrap,
+body.cnwshotel_admin_app .cnwshotel_admin_topnav {
+	align-self: center;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_topbar_media {
+	position: relative;
+	z-index: 1;
+	flex: 0 0 300px;
+	margin: -1px -1px -1px 14px;
+	overflow: hidden;
+	border-left: 1px solid rgba(212, 175, 55, 0.24);
+	background: #d9d1cb;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_topbar_media::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	z-index: 2;
+	pointer-events: none;
+	background: linear-gradient(90deg, #263d63 0%, rgba(38, 61, 99, 0.62) 12%, rgba(38, 61, 99, 0.10) 34%, rgba(38, 61, 99, 0) 58%);
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_topbar_media img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: right center;
+	filter: saturate(0.95) contrast(1.02);
+}
+
+.cnwshotel_pro_image {
+	height: 158px;
+}
+
+.cnwshotel_pro_image img {
+	object-position: center center;
+}
+
+@media (max-width: 1280px) {
+	body.cnwshotel_admin_app .cnwshotel_admin_topbar_media {
+		flex-basis: 240px;
+	}
+}
+
+@media (max-width: 1080px) {
+	body.cnwshotel_admin_app .cnwshotel_admin_topbar {
+		min-height: 92px;
+	}
+
+	body.cnwshotel_admin_app .cnwshotel_admin_topbar_media {
+		display: none;
+	}
+}
+
+/* =========================
+	C10 - remove topbar image and use banner inside admin hero
+========================= */
+body.cnwshotel_admin_app .cnwshotel_admin_topbar {
+	min-height: 88px;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_topbar_media {
+	display: none !important;
+}
+
+.cnwshotel_upgrade_hero_image {
+	position: relative;
+	overflow: hidden;
+	height: 214px;
+	border-radius: 24px;
+	background: #f6f1ea;
+	border: 1px solid rgba(212, 175, 55, 0.32);
+	box-shadow: 0 18px 42px rgba(0, 0, 0, 0.20);
+}
+
+.cnwshotel_upgrade_hero_image::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(90deg, rgba(18, 33, 60, 0.08), rgba(18, 33, 60, 0));
+	pointer-events: none;
+}
+
+.cnwshotel_upgrade_hero_image img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center center;
+}
+
+@media (max-width: 1100px) {
+	.cnwshotel_upgrade_hero_image {
+		height: 220px;
+	}
+}
+
+@media (max-width: 782px) {
+	body.cnwshotel_admin_app .cnwshotel_admin_topbar {
+		min-height: 0;
+	}
+
+	.cnwshotel_upgrade_hero_image {
+		height: 180px;
+	}
+}
+
+/* =========================
+	C11 - admin hero image, topbar air and settings tabs polish
+========================= */
+body.cnwshotel_admin_app .cnwshotel_admin_topbar {
+	min-height: 98px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	align-items: center;
+	overflow: visible;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_brand_wrap,
+body.cnwshotel_admin_app .cnwshotel_admin_topnav {
+	align-self: center;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_topnav {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_topnav a,
+body.cnwshotel_admin_app .cnwshotel_admin_pro_link {
+	min-height: 40px;
+	line-height: 1.2;
+}
+
+.cnwshotel_upgrade_hero_image img {
+	object-position: left center;
+}
+
+.cnwshotel_admin_tabs {
+	display: flex;
+	gap: 10px;
+	margin: 0 0 22px;
+	padding: 8px;
+	border: 1px solid #d8dee8;
+	border-radius: 16px;
+	background: #eef2f7;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72);
+}
+
+.cnwshotel_admin_tab {
+	min-height: 40px;
+	align-items: center;
+	padding: 0 16px;
+	border: 1px solid #d8dee8;
+	border-radius: 12px;
+	background: #f8fafc;
+	color: #243044;
+	font-weight: 650;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.85);
+}
+
+.cnwshotel_admin_tab:hover,
+.cnwshotel_admin_tab:focus {
+	color: #101827;
+	background: #ffffff;
+	border-color: #c4cfdd;
+}
+
+.cnwshotel_admin_tab.is-active {
+	border-color: rgba(212, 175, 55, 0.58);
+	background: #ffffff;
+	color: #111827;
+	box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08), inset 0 3px 0 rgba(212, 175, 55, 0.88);
+}
+
+@media (max-width: 782px) {
+	body.cnwshotel_admin_app .cnwshotel_admin_topbar {
+		min-height: 0;
+		padding-top: 16px;
+		padding-bottom: 16px;
+	}
+
+	.cnwshotel_admin_tabs {
+		overflow-x: auto;
+	}
+
+	.cnwshotel_admin_tab {
+		white-space: nowrap;
+	}
+}
+
+/* CNWS Hotel feature detail bullets */
+.cnwshotel_upgrade_detail_list {
+	margin: 12px 0 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+.cnwshotel_upgrade_detail_list li {
+	position: relative;
+	margin: 0 0 8px;
+	padding-left: 20px;
+	color: #475569;
+	font-size: 13px;
+	line-height: 1.6;
+}
+
+.cnwshotel_upgrade_detail_list li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0.68em;
+	width: 7px;
+	height: 7px;
+	border-radius: 999px;
+	background: linear-gradient(135deg, #d4af37, #f6dd97);
+	box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.16);
+}
+
+/* =========================
+	CNWS Hotel 1.1.16 admin shell alignment
+========================= */
+body.cnwshotel_admin_app #wpcontent {
+	padding-left: 0;
+}
+
+body.cnwshotel_admin_app #wpbody-content {
+	padding-bottom: 40px;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_shell,
+body.cnwshotel_admin_app .cnwshotel_admin_native_shell {
+	max-width: none;
+	margin: 0;
+	padding: 0 28px 40px;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_topbar {
+	box-sizing: border-box;
+	width: calc(100% + 56px);
+	margin: 0 -28px 34px;
+	border-left: 0;
+	border-right: 0;
+	border-radius: 0;
+}
+
+body.cnwshotel_admin_app .cnwshotel_admin_native_shell + .wrap,
+body.cnwshotel_admin_app .cnwshotel_admin_native_shell ~ .wrap {
+	margin-left: 28px;
+	margin-right: 28px;
+}
+
+@media (max-width: 782px) {
+	body.cnwshotel_admin_app .cnwshotel_admin_shell,
+	body.cnwshotel_admin_app .cnwshotel_admin_native_shell {
+		padding-left: 18px;
+		padding-right: 18px;
+	}
+
+	body.cnwshotel_admin_app .cnwshotel_admin_topbar {
+		width: calc(100% + 36px);
+		margin-left: -18px;
+		margin-right: -18px;
+	}
+}
+
+.cnwshotel_admin_card_pro {
+	border-color: rgba(201, 162, 39, 0.45);
+	background: linear-gradient(135deg, rgba(201, 162, 39, 0.08), rgba(255, 255, 255, 0.98));
+}
+
+.cnwshotel_admin_badge {
+	display: inline-flex;
+	align-items: center;
+	margin: 0 0 10px;
+	padding: 4px 10px;
+	border-radius: 999px;
+	background: rgba(201, 162, 39, 0.16);
+	color: #55420d;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+}
+
+.cnwshotel_admin_grid_two {
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.cnwshotel_admin_feature_list {
+	margin: 12px 0 0;
+	padding-left: 20px;
+}
+
+.cnwshotel_admin_feature_list li {
+	margin: 8px 0;
+}
+
+@media (max-width: 900px) {
+	.cnwshotel_admin_grid_two {
+		grid-template-columns: 1fr;
+	}
+}

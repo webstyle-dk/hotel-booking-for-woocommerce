@@ -1,0 +1,1063 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WSH Hotel Booking Management 1.1.53\n"
+"Report-Msgid-Bugs-To: https://web-style.dk\n"
+"POT-Creation-Date: 2026-06-26 07:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Text Domain: wsh-hotel\n"
+
+#: includes/class-cnwshotel-bookings-admin.php:815
+msgid "%1$s - Room %2$s"
+msgstr ""
+
+#: templates/single-room.php:237
+msgid "%d available room"
+msgid_plural "%d available rooms"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/single-room.php:224
+msgid "%d sq m"
+msgstr ""
+
+#: templates/single-room.php:162
+msgid "%d night"
+msgid_plural "%d nights"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wsh-hotel.php:199
+msgid "%d nights"
+msgstr ""
+
+#: templates/components/room-card.php:102
+msgid "%d room available"
+msgid_plural "%d rooms available"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wsh-hotel.php:197
+msgid "1 night"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:464
+msgid "20 minutes"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:625
+msgid "A more complete hotel workflow"
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:633
+msgid "Access denied."
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:707
+msgid "Actions"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:265 wsh-hotel.php:265
+msgid "Active"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:192
+msgid "Active rooms/units"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:239
+msgid "Add each physical room/unit that can be booked for this room type. Each unit uses the capacity set above."
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:73
+msgid "Add image and intro"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:301
+msgid "Add images"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:57
+msgid "Add New Room Type"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:56
+msgid "Add Room Type"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:240
+msgid "Add room/unit"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:714
+msgid "Add-ons and extra services"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:663
+msgid "Automatic sync for reservations and availability where supported by the Pro setup."
+msgstr ""
+
+#: includes/class-cnwshotel-calendar.php:134 includes/class-cnwshotel-calendar.php:147
+msgid "Available"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:92
+msgid "Back"
+msgstr ""
+
+#: templates/single-room.php:98
+msgid "Back to room overview"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:677
+msgid "Better overview for optimization, planning and operational decisions."
+msgstr ""
+
+#: includes/class-cnwshotel-calendar.php:132 includes/class-cnwshotel-calendar.php:146
+msgid "Blocked"
+msgstr ""
+
+#: templates/single-room.php:199
+msgid "Book now"
+msgstr ""
+
+#: templates/single-room.php:143
+msgid "Book this room"
+msgstr ""
+
+#: includes/class-cnwshotel-calendar.php:130 includes/class-cnwshotel-calendar.php:145
+msgid "Booked"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:436
+msgid "Booking"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:476
+msgid "Booking mode"
+msgstr ""
+
+#: includes/class-cnwshotel-calendar.php:49
+msgid "Booking overview"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:47 includes/class-cnwshotel-setup-wizard.php:102
+msgid "Booking page"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:302
+msgid "Booking page and shortcodes"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:448
+msgid "Booking settings"
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:701
+msgid "Booking status"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:170 includes/class-cnwshotel-admin-menu.php:172
+#: includes/class-cnwshotel-admin-menu.php:269 includes/class-cnwshotel-admin-menu.php:388
+#: includes/class-cnwshotel-admin-menu.php:696
+msgid "Bookings"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:400 includes/class-cnwshotel-admin-menu.php:406
+msgid "Bookings page could not load."
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:715
+msgid "Breakfast management"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:194
+msgid "Calculated from the active unit rows below."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:138 includes/class-cnwshotel-admin-menu.php:140
+#: includes/class-cnwshotel-admin-menu.php:354 includes/class-cnwshotel-admin-menu.php:694
+msgid "Calendar"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:366 includes/class-cnwshotel-admin-menu.php:372
+msgid "Calendar page could not load."
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:841
+msgid "Capacity %d"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:186
+msgid "Capacity per room/unit"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:460
+msgid "Cart hold time"
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:693 includes/class-cnwshotel-search.php:119
+#: includes/class-cnwshotel-woo-sync.php:582 includes/class-cnwshotel-woo-sync.php:614 templates/single-room.php:185
+msgid "Check-in"
+msgstr ""
+
+#: includes/class-cnwshotel-woo-sync.php:485
+msgid "Check-in cannot be in the past."
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:695 includes/class-cnwshotel-search.php:127
+#: includes/class-cnwshotel-woo-sync.php:589 includes/class-cnwshotel-woo-sync.php:618 templates/single-room.php:190
+msgid "Check-out"
+msgstr ""
+
+#: includes/class-cnwshotel-woo-sync.php:490
+msgid "Check-out must be after check-in."
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:777
+msgid "Checked in"
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:779
+msgid "Checked out"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:77 wsh-hotel.php:269
+msgid "Choose room image"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:716
+msgid "Cleaning workflow"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:697
+msgid "Comparison"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:659
+msgid "Connect the booking workflow with external operators, automated sync and better guest communication."
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:165
+msgid "Content"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:55
+msgid "Create a bookable room"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:247
+msgid "Create a new room and make sure the booking page is ready through a guided setup flow."
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:83
+msgid "Create booking page"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:56
+msgid "Create one bookable room type or unit. You can run this wizard again later to add more rooms."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:259
+msgid "Create rooms or units with a price, capacity and available inventory."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:334
+msgid "Create the first bookable room and the booking page without manual shortcode work."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:529
+msgid "Current booking page:"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:122 includes/class-cnwshotel-admin-menu.php:124
+#: includes/class-cnwshotel-admin-menu.php:239 includes/class-cnwshotel-admin-menu.php:690
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:719
+msgid "Device app to manage cleaning"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:687
+msgid "Device-friendly cleaning management for room readiness and staff follow-up."
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:58
+msgid "Edit Room Type"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:721
+msgid "Email confirmation system"
+msgstr ""
+
+#: templates/single-room.php:170
+msgid "Estimated price"
+msgstr ""
+
+#: includes/class-cnwshotel-cleanup.php:37
+msgid "Every 15 Minutes"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:652
+msgid "Expand the booking engine with stronger operations, smarter sales and more advanced administration tools."
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:665
+msgid "Extension options for treatments, court booking and other hotel or resort services."
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:720
+msgid "Finance integration"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:676
+msgid "Finance integration options for a smoother reservation and payment workflow."
+msgstr ""
+
+#: templates/components/room-card.php:86
+msgid "Fits up to %d guests"
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:691 includes/class-cnwshotel-room-cpt.php:263 wsh-hotel.php:264
+msgid "Floor"
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:829
+msgid "Floor %s"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:706
+msgid "Free"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:682
+msgid "Free booking engine"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:120
+msgid "Free booking flow"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:432
+msgid "Free booking settings for the simple single-unit booking engine."
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:629 includes/class-cnwshotel-upgrade.php:698
+msgid "Free vs Pro"
+msgstr ""
+
+#: templates/components/room-card.php:109
+msgid "Fully booked"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:506
+msgid "Function"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:164
+msgid "General"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:683
+msgid "Give staff practical tools for cleaning, breakfast, check-out and operational routines."
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:664
+msgid "Guest email workflows for confirmations, booking updates and check-out information."
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:688
+msgid "Guest emails and an optimized check-out workflow."
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:697 includes/class-cnwshotel-search.php:135
+#: includes/class-cnwshotel-woo-sync.php:596 includes/class-cnwshotel-woo-sync.php:622 templates/single-room.php:195
+msgid "Guests"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:45
+msgid "Guests and price"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:121
+msgid "Guests search by check-in, check-out and guest count. The free engine matches one available room or unit that can fit the requested guests."
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:66
+msgid "Guests this room can fit"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:705
+msgid "Highlight feature"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:650
+msgid "Highlighted features"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:713
+msgid "Hostel shared or private allocation"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:102 includes/class-cnwshotel-admin-menu.php:104
+#: includes/class-cnwshotel-admin-menu.php:672 includes/class-cnwshotel-admin-menu.php:680
+msgid "Hotel Booking"
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:667
+msgid "Hotel Bookings"
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:685
+msgid "ID"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:46
+msgid "Image and intro"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:266 wsh-hotel.php:266
+msgid "Inactive"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:710 includes/class-cnwshotel-upgrade.php:711
+#: includes/class-cnwshotel-upgrade.php:712 includes/class-cnwshotel-upgrade.php:713
+#: includes/class-cnwshotel-upgrade.php:714 includes/class-cnwshotel-upgrade.php:715
+#: includes/class-cnwshotel-upgrade.php:716 includes/class-cnwshotel-upgrade.php:717
+#: includes/class-cnwshotel-upgrade.php:718 includes/class-cnwshotel-upgrade.php:719
+#: includes/class-cnwshotel-upgrade.php:720 includes/class-cnwshotel-upgrade.php:721
+#: includes/class-cnwshotel-upgrade.php:722
+msgid "Included"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:717
+msgid "Integration with third-party operators"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:662
+msgid "Integration with third-party operators and booking channels."
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:658
+msgid "Integrations and guest communication"
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:322 includes/class-cnwshotel-bookings-admin.php:450
+msgid "Invalid or unauthorized booking request."
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:135
+msgid "Invalid or unauthorized setup request."
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:111
+msgid "Latest setup room"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:597
+msgid "Learn more about Pro"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:734
+msgid "Learn more about WSH Hotel Pro"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:263
+msgid "Manage rooms"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:318
+msgid "Manual shortcodes are available under Settings > Shortcodes."
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:853
+msgid "Move room"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:712
+msgid "Multi-room booking flow"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:563
+msgid "Need more booking tools? Pro is available as a separate add-on plugin."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:577
+msgid "Need multi-room bookings or hotel operations?"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:59
+msgid "New Room Type"
+msgstr ""
+
+#: includes/class-cnwshotel-calendar.php:63 includes/class-cnwshotel-setup-wizard.php:93
+msgid "Next"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:822
+msgid "No"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:106
+msgid "No booking page has been created yet."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:312
+msgid "No booking page has been created yet. Use the Setup Wizard to create it automatically."
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:671
+msgid "No bookings found yet."
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:115
+msgid "No room has been created through the setup wizard yet."
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:63
+msgid "No room types found in Trash."
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:62
+msgid "No room types found."
+msgstr ""
+
+#: includes/class-cnwshotel-room-grid.php:130
+msgid "No rooms created yet."
+msgstr ""
+
+#: includes/class-cnwshotel-room-grid.php:100
+msgid "No rooms found for the selected dates and guest count."
+msgstr ""
+
+#: includes/class-cnwshotel-calendar.php:68
+msgid "No rooms found yet."
+msgstr ""
+
+#: templates/single-room.php:202
+msgid "No WooCommerce product is connected to this room yet."
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:781
+msgid "No-show"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:712 includes/class-cnwshotel-upgrade.php:713
+#: includes/class-cnwshotel-upgrade.php:714 includes/class-cnwshotel-upgrade.php:715
+#: includes/class-cnwshotel-upgrade.php:716 includes/class-cnwshotel-upgrade.php:717
+#: includes/class-cnwshotel-upgrade.php:718 includes/class-cnwshotel-upgrade.php:719
+#: includes/class-cnwshotel-upgrade.php:720 includes/class-cnwshotel-upgrade.php:721
+#: includes/class-cnwshotel-upgrade.php:722
+msgid "Not included"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:308
+msgid "Open booking page"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:251 includes/class-cnwshotel-admin-menu.php:314
+msgid "Open setup"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:545
+msgid "Open Setup Wizard"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:689
+msgid "Operational tools that help simplify and improve daily hotel workflows."
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:682
+msgid "Operations and staff tools"
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:705
+msgid "Order ID"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:354
+msgid "Overview of room availability and reservations."
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:722
+msgid "Own check-out system"
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:699
+msgid "Paid capacity"
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:775
+msgid "Pending"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:181
+msgid "Per guest"
+msgstr ""
+
+#: templates/single-room.php:150
+msgid "per guest per night"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:180
+msgid "Per room"
+msgstr ""
+
+#: templates/single-room.php:150
+msgid "per room per night"
+msgstr ""
+
+#: includes/class-cnwshotel-woo-sync.php:478
+msgid "Please select valid check-in and check-out dates."
+msgstr ""
+
+#: includes/class-cnwshotel-calendar.php:62
+msgid "Previous"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:718
+msgid "Price algorithm"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:173 includes/class-cnwshotel-setup-wizard.php:68
+msgid "Price per night"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:178
+msgid "Pricing model"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:670
+msgid "Pricing, finance and reporting"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:576 includes/class-cnwshotel-admin-menu.php:594
+msgid "PRO"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:702 includes/class-cnwshotel-upgrade.php:707
+msgid "Pro"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:730
+msgid "Ready for more control?"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:295 wsh-hotel.php:273
+msgid "Remove image"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:268 wsh-hotel.php:267
+msgid "Remove room"
+msgstr ""
+
+#: wsh-hotel.php:268
+msgid "Remove this room?"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:674
+msgid "Reports for occupancy, KPI overview and planning insight."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:388
+msgid "Reservations created through the free booking flow."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:271
+msgid "Review reservations created through the free booking flow."
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:687 includes/class-cnwshotel-calendar.php:77
+msgid "Room"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:60
+msgid "Room 101"
+msgstr ""
+
+#: includes/class-cnwshotel-woo-sync.php:497
+msgid "Room could not be found."
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:90
+msgid "Room Data"
+msgstr ""
+
+#: templates/single-room.php:30
+msgid "Room data not found."
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:44
+msgid "Room details"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:108
+msgid "Room Gallery"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:207
+msgid "Room intro"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:57
+msgid "Room name"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:262 includes/class-cnwshotel-setup-wizard.php:59 wsh-hotel.php:263
+msgid "Room number or unit name"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:517
+msgid "Room overview"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:516
+msgid "Room results"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:198
+msgid "Room size (sq m)"
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:809
+msgid "Room type"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:55
+msgid "Room Type"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:257 includes/class-cnwshotel-room-cpt.php:54
+msgid "Room Types"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:312
+msgid "Room Types are real WordPress content, so SEO plugins can use their normal fields on this edit screen."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:698 includes/class-cnwshotel-setup-wizard.php:309
+msgid "Rooms"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:99
+msgid "Rooms / Units"
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:785
+msgid "Save"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:94
+msgid "Save room and booking page"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:490
+msgid "Save settings"
+msgstr ""
+
+#: includes/class-cnwshotel-search.php:143
+msgid "Search"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:514
+msgid "Search form"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:61
+msgid "Search Room Types"
+msgstr ""
+
+#: wsh-hotel.php:271
+msgid "Select images"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:117
+msgid "SEO"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:311
+msgid "SEO plugins supported"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:64
+msgid "Set guests and price"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:186 includes/class-cnwshotel-admin-menu.php:188
+#: includes/class-cnwshotel-admin-menu.php:432 includes/class-cnwshotel-admin-menu.php:700
+msgid "Settings"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:426
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:692
+msgid "Setup"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:39
+msgid "Setup completed. Your room and booking page are ready."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:154 includes/class-cnwshotel-admin-menu.php:156
+#: includes/class-cnwshotel-admin-menu.php:245 includes/class-cnwshotel-admin-menu.php:334
+msgid "Setup Wizard"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:42
+msgid "Setup wizard"
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:78
+msgid "Short intro"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:209
+msgid "Short intro used on cards and summaries."
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:79
+msgid "Short text shown on the room card."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:508
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:438 includes/class-cnwshotel-admin-menu.php:498
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:660 includes/class-cnwshotel-upgrade.php:672
+#: includes/class-cnwshotel-upgrade.php:684
+msgid "Show more"
+msgstr ""
+
+#: includes/class-cnwshotel-calendar.php:54
+msgid "Showing next 14 days from %s"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:517
+msgid "Shows all published rooms without search filtering."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:516
+msgid "Shows matching rooms or units after a search."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:514
+msgid "Shows the date and guest search form."
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:710
+msgid "Simple room or unit booking"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:480
+msgid "Simple single-unit booking"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:239
+msgid "Simple single-unit booking for WordPress and WooCommerce."
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:675
+msgid "Smart pricing with algorithm-based pricing options."
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:58 includes/class-cnwshotel-setup-wizard.php:150
+msgid "Standard room"
+msgstr ""
+
+#: templates/single-room.php:156
+msgid "Stay"
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:703
+msgid "Stay status"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:440
+msgid "System"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:541
+msgid "System tools"
+msgstr ""
+
+#: includes/class-cnwshotel-woo-sync.php:170 includes/class-cnwshotel-woo-sync.php:468
+msgid "The booking request could not be verified. Please try again."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:468
+msgid "The free booking engine uses a fixed 20 minute cart hold to reduce double-booking while guests complete checkout."
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:65
+msgid "The free engine matches one room or unit by the requested guest count."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:596
+msgid "The free plugin does not contain locked Pro functionality and does not require a license key. Pro features are delivered through a separate add-on plugin outside WordPress.org."
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:188
+msgid "The same capacity is used for each active room or unit below."
+msgstr ""
+
+#: includes/class-cnwshotel-search.php:105
+msgid "The selected room is not available for those dates or guest count. Please search again."
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:84
+msgid "The wizard creates the booking page if it does not already exist. The shortcodes can also be copied from Settings later."
+msgstr ""
+
+#: includes/class-cnwshotel-setup-wizard.php:74
+msgid "This is used on the room card and room page."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:482
+msgid "This mode books one available room or unit per checkout item."
+msgstr ""
+
+#: includes/class-cnwshotel-woo-sync.php:502
+msgid "This room cannot fit the selected number of guests."
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:686
+msgid "Tools for breakfast and cleaning to support a more efficient daily operation."
+msgstr ""
+
+#: includes/class-cnwshotel-bookings-admin.php:689
+msgid "Unit"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:711
+msgid "Unlimited room types and nights"
+msgstr ""
+
+#: templates/single-room.php:211
+msgid "Up to %d guests"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:202 includes/class-cnwshotel-admin-menu.php:204
+#: includes/class-cnwshotel-admin-menu.php:563
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:595
+msgid "Upgrade when you need more control"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:510
+msgid "Use"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:316
+msgid "Use Excerpt for a short intro."
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:699
+msgid "Use Free for simple room bookings. Use Pro when the booking engine also needs to support operations, integrations and advanced hotel management."
+msgstr ""
+
+#: wsh-hotel.php:272
+msgid "Use images"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:731
+msgid "Use Pro when bookings become daily operations"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:671
+msgid "Use stronger data and pricing tools to support planning, revenue and daily decisions."
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:302
+msgid "Use the gallery field for room images. Featured image can still be used as the main image."
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:315
+msgid "Use the main content editor for the room description."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:543
+msgid "Use the setup wizard to create the booking page and prepare the free booking flow."
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:314
+msgid "Use the title as the room type name."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:500
+msgid "Use these shortcodes if you want to place the free booking elements manually on a page."
+msgstr ""
+
+#: wsh-hotel.php:270
+msgid "Use this image"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:275
+msgid "View bookings"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:579 includes/class-cnwshotel-upgrade.php:628
+msgid "View Pro features"
+msgstr ""
+
+#: templates/components/room-card.php:114
+msgid "View room"
+msgstr ""
+
+#: includes/class-cnwshotel-room-cpt.php:60
+msgid "View Room Type"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:320
+msgid "View shortcodes"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:651
+msgid "What Pro adds to the workflow"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:732
+msgid "When the property needs more than simple room bookings, the Pro add-on adds the workflow tools around reservations, staff and direct sales."
+msgstr ""
+
+#: includes/class-cnwshotel-calendar.php:18
+msgid "WSH Calendar"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:626
+msgid "WSH Hotel Free is built for simple room bookings. The separate Pro add-on is delivered outside WordPress.org and expands the system with advanced operations, smarter pricing, integrations and tools for larger accommodation businesses."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:450
+msgid "WSH Hotel Free is built for simple single-unit bookings. Guests search by date and guest count, and book one available room or unit that matches the requested capacity."
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:578
+msgid "WSH Hotel Free uses a simple booking engine. Multi-room allocation, rate plans, price rules, add-ons and advanced guest tools are available in the separate Pro add-on."
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:624
+msgid "WSH Hotel Pro"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:688
+msgid "WSH navigation"
+msgstr ""
+
+#: includes/class-cnwshotel-upgrade.php:822
+msgid "Yes"
+msgstr ""
+
+#: includes/class-cnwshotel-admin-menu.php:306
+msgid "Your guests can search and book from this page:"
+msgstr ""
